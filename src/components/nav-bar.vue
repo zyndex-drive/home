@@ -17,7 +17,7 @@
       {{ ismobile ? 'ZYNDEX' : 'Z Y N D E X' }}
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-tooltip bottom transition="slide-y-transition">
+    <v-tooltip v-if="!ismobile" bottom transition="slide-y-transition">
       <template v-slot:activator="{ on, attrs }">
         <v-btn
           v-bind="attrs"
