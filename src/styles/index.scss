@@ -1,0 +1,96 @@
+// Every Project's Must
+* {
+  box-sizing: border-box;
+}
+
+// Custom Scroll Bar Design for Following Material Guidelines
+
+//? Scroll Bar Width
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: white;
+}
+
+//? Scroll Bar Track
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: none;
+}
+
+//? Scroll Bar Thumb
+::-webkit-scrollbar-thumb {
+  background: hsl(0%, 0%, 15%);
+  border-radius: 10px;
+}
+
+// Some Helper CSS
+
+//? For all Use Cases
+.non-touch {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.point-cursor {
+  cursor: pointer;
+}
+
+.break-only-word {
+  word-break: break-word;
+}
+
+.width-min {
+  min-width: 40%;
+}
+
+.border-max {
+  border-radius: 50%;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.back-gif {
+  background-image: url('https://i.pinimg.com/originals/f4/a8/b4/f4a8b449107bfcbc785ebf766c3864b8.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gradient-hero {
+  background-image: linear-gradient(
+    to top,
+    #ffffff,
+    #f2faff,
+    #d5f9ff,
+    #b0f9ff,
+    #94f9f2,
+    #94f9f2,
+    #94f9f2,
+    #94f9f2,
+    #b0f9ff,
+    #d5f9ff,
+    #f2faff,
+    #ffffff
+  );
+}
+
+.is-maximum {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}

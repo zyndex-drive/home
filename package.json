@@ -1,16 +1,29 @@
 {
-  "name": "the-best-portfolio",
+  "name": "zyndex",
+  "title": "ZYNDEX | G-Index Generator",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.0",
+    "bulma": "^0.9.1",
     "core-js": "^3.6.5",
+    "gsap": "^3.5.1",
+    "lodash": "^4.17.20",
+    "minify-css-string": "^1.0.0",
+    "swiper": "^6.3.5",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-meta": "^2.4.0",
+    "vue-moment": "^4.1.0",
+    "vue-router": "^3.2.0",
+    "vue2-animate": "^2.1.4",
+    "vuetify": "^2.2.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -21,7 +34,10 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.12.0",
+    "sass": "^1.19.0",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-vuetify": "~2.0.7",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
   }
 }

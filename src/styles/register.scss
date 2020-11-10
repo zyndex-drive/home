@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+// Import a Google Font for Following Material Guidelines
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+// Vuetify Sass Variables
+$family-sans-serif: 'open-sans', sans-serif;
+$body-font-family: 'Work Sans', serif;
+$border-radius-root: 6px;
+$font-size-root: 14px;
+$btn-letter-spacing: 0;
+$btn-font-weight: 400;
+$list-item-title-font-size: 0.929rem;
+$list-item-dense-title-font-size: 0.929rem;
+$list-item-dense-title-font-weight: initial;
+$fab-icon-sizes: (
+  'small': 20,
+);
+$btn-sizes: (
+  'default': 41,
+  'large': 54,
+);
+$headings: (
+  'h1': (
+    'size': 3.3125rem,
+    'line-height': 1.15em,
+  ),
+  'h2': (
+    'size': 2.25rem,
+    'line-height': 1.5em,
+  ),
+);
+
+// Vue2-Animate Variables
+$animationDuration: 0.5s;
+
+// Other Imports
+@import 'bulma';
+@import 'vue2-animate/src/sass/vue2-animate.scss';
+@import 'index.scss';
